@@ -1,0 +1,16 @@
+#Data directory 
+IMAGE_DIR = ''
+ROI_DIR = ''
+
+#Data augmentation parameters 
+N_AUGMENATIONS = 10
+MAX_ANGLE_ROTATION = 30
+ZOOM_RANGE = (0.8, 1.2)
+SHEAR_RANGE = (-0.2, 0.2)
+TRANSLATE_RANGE=(-10, 10)
+BRIGHTNESS_RANGE=(0.5, 1.5)
+CONTRAST_RANGE=(0.5, 1.5)
+MEAN_GAUSSIAN_NOISE=0
+STD_GAUSSIAN_RANGE=(5, 20)
+
+#Model hyper Parameters 
